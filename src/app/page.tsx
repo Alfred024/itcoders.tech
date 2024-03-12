@@ -8,9 +8,9 @@ import { title } from "process";
 export default function Home() {
   return (
     <main className=''>
-      <section className="bg-white p-40">
+      <section className="bg-white p-20" style={{paddingBottom: '0px'}}>
         <div className="Description-Section">
-          <p className="f-size-50">
+          <p className="f-size-40">
             EL SOFTWARE <i className="fa-brands fa-uncharted"></i> DE TUS SUEÑOS ES TU <i className="fa-solid fa-map"></i> CAMINO A LA INSPIRACIÓN 
             E INNOVACIÓN <i className="fa-solid fa-location-dot"></i>
           </p>
@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className='white-text f-size-100 ls-1'>itcoders.tech</h1>
       </section> */}
 
-      <section className="bg-white p-40">
+      <section className="bg-white p-20">
           <div className="Our-Projects-Slide width-100 flex justify-content align-center gap-15">
             <ProjectCard></ProjectCard>
             <ProjectCardHide></ProjectCardHide>
